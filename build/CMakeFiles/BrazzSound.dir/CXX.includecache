@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Envelope.hpp
+
+../include/Instrument.hpp
+Note.hpp
+../include/Note.hpp
+Envelope.hpp
+../include/Envelope.hpp
+vector
+-
+queue
+-
+
+../include/Note.hpp
+Envelope.hpp
+../include/Envelope.hpp
+
+/cygdrive/c/code/Sound/source/Instrument.cpp
+Instrument.hpp
+/cygdrive/c/code/Sound/source/Instrument.hpp
+windows.h
+-
+string
+-
+

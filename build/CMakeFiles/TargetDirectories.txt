@@ -1,0 +1,4 @@
+/cygdrive/c/code/Sound/build/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/code/Sound/build/CMakeFiles/edit_cache.dir
+/cygdrive/c/code/Sound/build/CMakeFiles/test.dir
+/cygdrive/c/code/Sound/build/CMakeFiles/BrazzSound.dir
