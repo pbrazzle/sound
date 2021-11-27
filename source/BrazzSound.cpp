@@ -1,33 +1,45 @@
 #include "BrazzSound.hpp"
 
-#include "BrazzSoundFactory.hpp"
-#include "BrazzSoundManager.hpp"
-#include "BrazzSoundData.hpp"
+#include "WaveOutInterface.hpp"
+#include "Envelope.hpp"
 
 short* BrazzSound::getCurrentBlock()
 {
-	return BrazzSoundData::getBuffer();
+	return buffer;
 }
 	
 void BrazzSound::playNote(double freq, double time)
 {
-	BrazzSoundData::changeInstrumentEnvelope(Envelope(time), 0);
-	BrazzSoundFactory::createNote(freq, time, 0);
+	for (int i = 0; i < instruments.size(); i++)
+	{
+		if (instIds[i] == 0) instruments[i].changeEnvelope(Envelope(time));
+	}
+	Note n(0.1,freq,globalTime,1);
+	for (int i = 0; i < instruments.size(); i++)
+	{
+		if (instIds[i] == 0) instruments[i].playNote(n);
+	}
 }
 
 void BrazzSound::setARMAValues(std::vector<double> vals)
 {
-	BrazzSoundData::setARMAValues(vals);
+	instruments[0].setARMAValues(vals);
 }
 
 void BrazzSound::initialize()
 {
-	BrazzSoundFactory::createInstrument(0.2);
-	BrazzSoundManager::initialize();
-	BrazzSoundData::initialize();
+	Envelope e(0.2);
+	Instrument i(e);
+	int id = instruments.size();
+	instIds.push_back(id);
+	instruments.push_back(i);
+	WaveOutInterface::initialize();
+	WaveOutInterface::setBlockFunction(&calculateBlock);
+	globalTime = 0;
+	memset(buffer, 0, sizeof(short)*512);
 }
 
 void BrazzSound::close()
 {
-	BrazzSoundManager::close();
+	WaveOutInterface::close();
 }

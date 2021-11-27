@@ -103,61 +103,9 @@ CMakeFiles/BrazzSound.dir/source/BrazzSound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrazzSound.dir/source/BrazzSound.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/code/Sound/source/BrazzSound.cpp -o CMakeFiles/BrazzSound.dir/source/BrazzSound.cpp.s
 
-CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o: CMakeFiles/BrazzSound.dir/flags.make
-CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o: ../source/BrazzSoundFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o -c /cygdrive/c/code/Sound/source/BrazzSoundFactory.cpp
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/code/Sound/source/BrazzSoundFactory.cpp > CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.i
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/code/Sound/source/BrazzSoundFactory.cpp -o CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.s
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o: CMakeFiles/BrazzSound.dir/flags.make
-CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o: ../source/BrazzSoundData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o -c /cygdrive/c/code/Sound/source/BrazzSoundData.cpp
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/code/Sound/source/BrazzSoundData.cpp > CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.i
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/code/Sound/source/BrazzSoundData.cpp -o CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.s
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o: CMakeFiles/BrazzSound.dir/flags.make
-CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o: ../source/BrazzSoundManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o -c /cygdrive/c/code/Sound/source/BrazzSoundManager.cpp
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/code/Sound/source/BrazzSoundManager.cpp > CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.i
-
-CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/code/Sound/source/BrazzSoundManager.cpp -o CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.s
-
-CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o: CMakeFiles/BrazzSound.dir/flags.make
-CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o: ../source/EffectsManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o -c /cygdrive/c/code/Sound/source/EffectsManager.cpp
-
-CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/code/Sound/source/EffectsManager.cpp > CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.i
-
-CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/code/Sound/source/EffectsManager.cpp -o CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.s
-
 CMakeFiles/BrazzSound.dir/source/Note.cpp.o: CMakeFiles/BrazzSound.dir/flags.make
 CMakeFiles/BrazzSound.dir/source/Note.cpp.o: ../source/Note.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BrazzSound.dir/source/Note.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BrazzSound.dir/source/Note.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BrazzSound.dir/source/Note.cpp.o -c /cygdrive/c/code/Sound/source/Note.cpp
 
 CMakeFiles/BrazzSound.dir/source/Note.cpp.i: cmake_force
@@ -170,7 +118,7 @@ CMakeFiles/BrazzSound.dir/source/Note.cpp.s: cmake_force
 
 CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o: CMakeFiles/BrazzSound.dir/flags.make
 CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o: ../source/Envelope.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o -c /cygdrive/c/code/Sound/source/Envelope.cpp
 
 CMakeFiles/BrazzSound.dir/source/Envelope.cpp.i: cmake_force
@@ -183,7 +131,7 @@ CMakeFiles/BrazzSound.dir/source/Envelope.cpp.s: cmake_force
 
 CMakeFiles/BrazzSound.dir/source/Instrument.cpp.o: CMakeFiles/BrazzSound.dir/flags.make
 CMakeFiles/BrazzSound.dir/source/Instrument.cpp.o: ../source/Instrument.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BrazzSound.dir/source/Instrument.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BrazzSound.dir/source/Instrument.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BrazzSound.dir/source/Instrument.cpp.o -c /cygdrive/c/code/Sound/source/Instrument.cpp
 
 CMakeFiles/BrazzSound.dir/source/Instrument.cpp.i: cmake_force
@@ -198,10 +146,6 @@ CMakeFiles/BrazzSound.dir/source/Instrument.cpp.s: cmake_force
 BrazzSound_OBJECTS = \
 "CMakeFiles/BrazzSound.dir/source/WaveOutInterface.cpp.o" \
 "CMakeFiles/BrazzSound.dir/source/BrazzSound.cpp.o" \
-"CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o" \
-"CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o" \
-"CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o" \
-"CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o" \
 "CMakeFiles/BrazzSound.dir/source/Note.cpp.o" \
 "CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o" \
 "CMakeFiles/BrazzSound.dir/source/Instrument.cpp.o"
@@ -211,16 +155,12 @@ BrazzSound_EXTERNAL_OBJECTS =
 
 ../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/WaveOutInterface.cpp.o
 ../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/BrazzSound.cpp.o
-../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o
-../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o
-../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o
-../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o
 ../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/Note.cpp.o
 ../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o
 ../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/source/Instrument.cpp.o
 ../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/build.make
 ../lib/libBrazzSound.a: CMakeFiles/BrazzSound.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../lib/libBrazzSound.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../lib/libBrazzSound.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/BrazzSound.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BrazzSound.dir/link.txt --verbose=$(VERBOSE)
 

@@ -183,114 +183,6 @@ source/BrazzSound.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSound.cpp.s
 .PHONY : source/BrazzSound.cpp.s
 
-source/BrazzSoundData.o: source/BrazzSoundData.cpp.o
-
-.PHONY : source/BrazzSoundData.o
-
-# target to build an object file
-source/BrazzSoundData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o
-.PHONY : source/BrazzSoundData.cpp.o
-
-source/BrazzSoundData.i: source/BrazzSoundData.cpp.i
-
-.PHONY : source/BrazzSoundData.i
-
-# target to preprocess a source file
-source/BrazzSoundData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.i
-.PHONY : source/BrazzSoundData.cpp.i
-
-source/BrazzSoundData.s: source/BrazzSoundData.cpp.s
-
-.PHONY : source/BrazzSoundData.s
-
-# target to generate assembly for a file
-source/BrazzSoundData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.s
-.PHONY : source/BrazzSoundData.cpp.s
-
-source/BrazzSoundFactory.o: source/BrazzSoundFactory.cpp.o
-
-.PHONY : source/BrazzSoundFactory.o
-
-# target to build an object file
-source/BrazzSoundFactory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o
-.PHONY : source/BrazzSoundFactory.cpp.o
-
-source/BrazzSoundFactory.i: source/BrazzSoundFactory.cpp.i
-
-.PHONY : source/BrazzSoundFactory.i
-
-# target to preprocess a source file
-source/BrazzSoundFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.i
-.PHONY : source/BrazzSoundFactory.cpp.i
-
-source/BrazzSoundFactory.s: source/BrazzSoundFactory.cpp.s
-
-.PHONY : source/BrazzSoundFactory.s
-
-# target to generate assembly for a file
-source/BrazzSoundFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.s
-.PHONY : source/BrazzSoundFactory.cpp.s
-
-source/BrazzSoundManager.o: source/BrazzSoundManager.cpp.o
-
-.PHONY : source/BrazzSoundManager.o
-
-# target to build an object file
-source/BrazzSoundManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o
-.PHONY : source/BrazzSoundManager.cpp.o
-
-source/BrazzSoundManager.i: source/BrazzSoundManager.cpp.i
-
-.PHONY : source/BrazzSoundManager.i
-
-# target to preprocess a source file
-source/BrazzSoundManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.i
-.PHONY : source/BrazzSoundManager.cpp.i
-
-source/BrazzSoundManager.s: source/BrazzSoundManager.cpp.s
-
-.PHONY : source/BrazzSoundManager.s
-
-# target to generate assembly for a file
-source/BrazzSoundManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.s
-.PHONY : source/BrazzSoundManager.cpp.s
-
-source/EffectsManager.o: source/EffectsManager.cpp.o
-
-.PHONY : source/EffectsManager.o
-
-# target to build an object file
-source/EffectsManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o
-.PHONY : source/EffectsManager.cpp.o
-
-source/EffectsManager.i: source/EffectsManager.cpp.i
-
-.PHONY : source/EffectsManager.i
-
-# target to preprocess a source file
-source/EffectsManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.i
-.PHONY : source/EffectsManager.cpp.i
-
-source/EffectsManager.s: source/EffectsManager.cpp.s
-
-.PHONY : source/EffectsManager.s
-
-# target to generate assembly for a file
-source/EffectsManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.s
-.PHONY : source/EffectsManager.cpp.s
-
 source/Envelope.o: source/Envelope.cpp.o
 
 .PHONY : source/Envelope.o
@@ -439,18 +331,6 @@ help:
 	@echo "... source/BrazzSound.o"
 	@echo "... source/BrazzSound.i"
 	@echo "... source/BrazzSound.s"
-	@echo "... source/BrazzSoundData.o"
-	@echo "... source/BrazzSoundData.i"
-	@echo "... source/BrazzSoundData.s"
-	@echo "... source/BrazzSoundFactory.o"
-	@echo "... source/BrazzSoundFactory.i"
-	@echo "... source/BrazzSoundFactory.s"
-	@echo "... source/BrazzSoundManager.o"
-	@echo "... source/BrazzSoundManager.i"
-	@echo "... source/BrazzSoundManager.s"
-	@echo "... source/EffectsManager.o"
-	@echo "... source/EffectsManager.i"
-	@echo "... source/EffectsManager.s"
 	@echo "... source/Envelope.o"
 	@echo "... source/Envelope.i"
 	@echo "... source/Envelope.s"

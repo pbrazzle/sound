@@ -3,38 +3,11 @@
 
 CMakeFiles/BrazzSound.dir/source/BrazzSound.cpp.o
  ../include/BrazzSound.hpp
- ../include/BrazzSoundData.hpp
- ../include/BrazzSoundFactory.hpp
- ../include/BrazzSoundManager.hpp
- ../include/Envelope.hpp
- ../include/Instrument.hpp
- ../include/Note.hpp
- /cygdrive/c/code/Sound/source/BrazzSound.cpp
-CMakeFiles/BrazzSound.dir/source/BrazzSoundData.cpp.o
- ../include/BrazzSoundData.hpp
- ../include/Envelope.hpp
- ../include/Instrument.hpp
- ../include/Note.hpp
- /cygdrive/c/code/Sound/source/BrazzSoundData.cpp
-CMakeFiles/BrazzSound.dir/source/BrazzSoundFactory.cpp.o
- ../include/BrazzSoundData.hpp
- ../include/BrazzSoundFactory.hpp
- ../include/BrazzSoundManager.hpp
- ../include/Envelope.hpp
- ../include/Instrument.hpp
- ../include/Note.hpp
- /cygdrive/c/code/Sound/source/BrazzSoundFactory.cpp
-CMakeFiles/BrazzSound.dir/source/BrazzSoundManager.cpp.o
- ../include/BrazzSoundData.hpp
- ../include/BrazzSoundManager.hpp
  ../include/Envelope.hpp
  ../include/Instrument.hpp
  ../include/Note.hpp
  ../include/WaveOutInterface.hpp
- /cygdrive/c/code/Sound/source/BrazzSoundManager.cpp
-CMakeFiles/BrazzSound.dir/source/EffectsManager.cpp.o
- ../include/EffectsManager.hpp
- /cygdrive/c/code/Sound/source/EffectsManager.cpp
+ /cygdrive/c/code/Sound/source/BrazzSound.cpp
 CMakeFiles/BrazzSound.dir/source/Envelope.cpp.o
  ../include/Envelope.hpp
  /cygdrive/c/code/Sound/source/Envelope.cpp

@@ -96,12 +96,12 @@ clean: CMakeFiles/BrazzSound.dir/clean
 CMakeFiles/test.dir/all: CMakeFiles/BrazzSound.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=11,12 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=7,8 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/code/Sound/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/code/Sound/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/code/Sound/build/CMakeFiles 0
 .PHONY : CMakeFiles/test.dir/rule
@@ -123,12 +123,12 @@ CMakeFiles/test.dir/clean:
 CMakeFiles/BrazzSound.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrazzSound.dir/build.make CMakeFiles/BrazzSound.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target BrazzSound"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/code/Sound/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target BrazzSound"
 .PHONY : CMakeFiles/BrazzSound.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BrazzSound.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/code/Sound/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/code/Sound/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BrazzSound.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/code/Sound/build/CMakeFiles 0
 .PHONY : CMakeFiles/BrazzSound.dir/rule
