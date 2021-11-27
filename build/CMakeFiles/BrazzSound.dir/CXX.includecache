@@ -6,3 +6,31 @@
 
 #IncludeRegexTransform: 
 
+../include/WaveOutInterface.hpp
+cmath
+-
+fstream
+-
+string
+-
+atomic
+-
+condition_variable
+-
+chrono
+-
+mutex
+-
+functional
+-
+Windows.h
+-
+pthread.h
+-
+
+/cygdrive/c/code/Sound/source/WaveOutInterface.cpp
+WaveOutInterface.hpp
+/cygdrive/c/code/Sound/source/WaveOutInterface.hpp
+iostream
+-
+

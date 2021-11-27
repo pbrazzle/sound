@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <math.h>
+#include <memory>
 
 #include "Note.hpp"
 #include "Instrument.hpp"
@@ -17,7 +18,8 @@ namespace BrazzSound
 		std::vector<int> instIds;
 		
 		double globalTime;
-		short buffer[512];
+		//short buffer[512];
+		std::unique_ptr<short[]> buffer;
 		
 		void calculateBlock(short* block)
 		{
@@ -42,16 +44,13 @@ namespace BrazzSound
 	}	
 	
 	//sends current sample block playing
-	short* getCurrentBlock();
+	std::vector<short> getCurrentBlock();
 	
 	//plays standard note as sin wave at given frequency
 	//Inputs:
 	//	double : frequency
 	//	double : time
 	void playNote(double, double);
-	
-	//Sets ARMA values for synth
-	void setARMAValues(std::vector<double>);
 	
 	//Sends initialize signal to waveOut interface
 	void initialize();

@@ -3,40 +3,29 @@
 #include "WaveOutInterface.hpp"
 #include "Envelope.hpp"
 
-short* BrazzSound::getCurrentBlock()
+std::vector<short> BrazzSound::getCurrentBlock()
 {
-	return buffer;
+	std::vector<short> buf;
+	for (int i = 0; i < 512; i++) buf.push_back(buffer[i]);
+	return buf;
 }
 	
 void BrazzSound::playNote(double freq, double time)
 {
-	for (int i = 0; i < instruments.size(); i++)
-	{
-		if (instIds[i] == 0) instruments[i].changeEnvelope(Envelope(time));
-	}
 	Note n(0.1,freq,globalTime,1);
-	for (int i = 0; i < instruments.size(); i++)
-	{
-		if (instIds[i] == 0) instruments[i].playNote(n);
-	}
-}
-
-void BrazzSound::setARMAValues(std::vector<double> vals)
-{
-	instruments[0].setARMAValues(vals);
+	instruments[0].changeEnvelope(Envelope(time));
+	instruments[0].playNote(n);
 }
 
 void BrazzSound::initialize()
 {
 	Envelope e(0.2);
 	Instrument i(e);
-	int id = instruments.size();
-	instIds.push_back(id);
 	instruments.push_back(i);
 	WaveOutInterface::initialize();
 	WaveOutInterface::setBlockFunction(&calculateBlock);
 	globalTime = 0;
-	memset(buffer, 0, sizeof(short)*512);
+	buffer = std::unique_ptr<short[]>(new short[512]);
 }
 
 void BrazzSound::close()

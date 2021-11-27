@@ -11,7 +11,6 @@ class Instrument
 {
 	private:
 		std::vector<Note> notes;
-		std::vector<double> armaVals, armaBuf;
 		Envelope env;
 		
 	public:
@@ -28,9 +27,6 @@ class Instrument
 		//	Inputs:
 		//		double : time
 		double play(double);
-		
-		//Placeholder functions for ARMA effects
-		void setARMAValues(std::vector<double>);
 		
 		//Changes the Instrument Envelope to given Envelope
 		void changeEnvelope(Envelope);
